@@ -40,7 +40,11 @@ defmodule Sns.MixProject do
       {:postgrex, ">= 0.0.0"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.0"}
+      {:plug_cowboy, "~> 2.0"},
+      {:guardian, "~> 1.0"},
+      {:comeonin, "~> 3.0"},
+      {:poison, "~> 3.1"},
+      {:absinthe, "~> 1.4"}
     ]
   end
 
