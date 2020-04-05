@@ -44,7 +44,8 @@ defmodule Sns.MixProject do
       {:guardian, "~> 1.0"},
       {:comeonin, "~> 3.0"},
       {:poison, "~> 3.1"},
-      {:absinthe, "~> 1.4"}
+      {:absinthe, "~> 1.4"},
+      {:absinthe_plug, "~> 1.4"}
     ]
   end
 
